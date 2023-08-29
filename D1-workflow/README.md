@@ -1,6 +1,6 @@
 repo>>issues
 
-##issues:
+## issues:
 
 #issue labels: -select issue with familiar labels like good first issue ,apis, uiux etx
 
