@@ -1,31 +1,29 @@
-repo>>issues
+# To get started with open source 
+- Select the project or repo to which you wanna contribute
+ie you are familiar with tech stack of the project
+-now go issues and choose the issue you wanna work on 
 
-## issues:
+## ISSUES
+- Issue submitting: The selected repo or project will have an issue template like bug, feature etc. with the pretty good description 
+and we have to fill in the description or we have to make a blank issue
 
-#issue labels: -select issue with familiar labels like good first issue ,apis, uiux etx
-
-#issue submitting -the selected repo or project will have a issue template like bug , feature etc with the preety good description and we have to fill the description or we have to make a blank issue
-
-while subbmitting issue title [BUG] and then write suitable title [bug],[feat] etc
+- **Submitting issue**</br>
+title: [BUG] and then write suitable title [bug],[feat] etc
 
 if blank then this template can work (given below) describe the issue
 
-steps to reproduce
-
-expected behavior
-
-screenshots
-
-desktop os- browser-
+steps to reproduce</br>
+expected behavior</br>
+screenshots</br>
 
 and then submit the issue
 
-the maintainer will seta label or some bot will
+## Workflow of resolving an issue 
+- if wanna work on lets say issue #123</br> 
+1.fork the repo --> 2.solve the issue in own repo like commit a, commit b push</br>
+-->3.create pull request
 
-#Workflow of resolving an issue if wanna work on lets say issue #123 1.fork the repo 2. solve the issue in own repo like commit a, commit b push in own repo
-
-now we to submit it to the origiinal repo we create pull request
-
-PR ke description mae likna h fixes #123 th automatically link kr dega iss pr ko original repo ke issue #123 se
-
-//copy repo - forked // orginal repo-- upstream
+## pull request 
+- PR ke description mae likna h 
+fixes #123 th automatically link kr dega iss PR ko upstream ke issue #123 se
+orginal repo-- upstream
