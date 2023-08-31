@@ -66,3 +66,8 @@ Now submit the pull request.
 
 good,if merged by maintainer 
 
+------
+## git commands 
+![image](https://github.com/whoshyam/Open-Source/assets/106832180/aaf33a0e-4429-48a0-aa01-e9a11b4992d8)
+![image](https://github.com/whoshyam/Open-Source/assets/106832180/916f41ec-a6d4-4528-ab41-c85b8154ad08)
+
