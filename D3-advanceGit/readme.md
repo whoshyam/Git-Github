@@ -1,59 +1,73 @@
-Connecting and syncing with upstream concept
+# Connecting and syncing with upstream concept
 
--let ek repo h originaldev naam ka 
-uska ek issue h jo hme solve krna h
-ex-
-let ko const karna h ek line pe  
+- let ek repo h originaldev naam ka ,uska ek issue #123 h jo hme solve krna h
+ex-let ko const karna h ek line pe  
 
 so, as usual steps
 fork orginal>git clone to own machine > 
+- now we have original repo
+  forked repo on github
+  local machine pe clone repo
 
-open terminal
-**cd coding //folder for repo 
-**git clone link
-**cd reponame
-ab hm repo ke main mae h  
-**code . //isse vscode khul jaega main branch ka 
-**git remote -v 
+- open terminal
+//folder for repo
+```
+cd coding  
+```
+```
+git clone link
+```
+```
+cd reponame
+``` 
+// isse vscode khul jaega main branch ka
+```
+code . 
+```
+ 
+```
+git remote -v 
+```
 //tells ki push/pull karenge th kis repo se link hoga
-(fetch)/pull
-(push)
+origin:(fetch)/pull
+origin:(push)
 
 //now local set up
-**yarn 
+```
+yarn 
+```
+jb set up hogya tb, to run at local host3000,checks the issue 
+```
+yarn dev 
+```
 
-jb set up hogya tb 
-**yarn dev 
-to run at local host3000
-//checks the issue 
-
-now make new branch 
-**git checkout -b feat/let-to-const 
-after making changes in the branch 
-
-//now add changes to stage  
-**git add .
-
-//note-**git branch //checks kis branch pe h 
-       **npx gitignore node //jo bhi iss mae dalte h wo github pe push nhi hoti h 
-
-
-//ab agr jo changes kiye usko revertv krna h th use
-
+// now make new branch 
+```
+git checkout -b feat/let-to-const 
+```
+after making changes in the branch ,now add changes to stage 
+``` 
+git add .
+```
 //now commit and push
-**git commit -m "changed let to const"
-note-ye command dalne ke baad apne aap ek git push ka command aajaega just copy it
-**git push --set-upstream origin feat/let-to-const
-
-//now if we go github and check branches th ek new branch ban gya h ar PR karenge tb
-PR 
+```
+git commit -m "changed let to const"
+```
+- note-ye command dalne ke baad apne aap ek git push ka command aajaega just copy it
+```
+git push --set-upstream origin feat/let-to-const
+```
+// now if we go github and check branches th ek new branch ban gya h ar PR karenge tb
+- PR 
 PR desc: fixes #123
 
-now the maintainer of original repo merge then PR
+now the maintainer of original repo merge the PR
 
-now if we select a new issue from original repo
-then 
-**git switch main
+- now if we select a new issue from original repo then 
+```
+git switch main
+```
+
 //krna chahiye ki ab ek  branch bna ke uss issue pe kaam kare but but 
 what happens now is forked repo ke feat/.. branch mae changes hue h ar feat/.. branch ko merge kiye h original repo mae 
 abhi bhi forked repo ke main mae let --let hi h const nhi h main mae 
