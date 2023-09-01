@@ -1,11 +1,11 @@
 # Connecting and syncing with upstream concept
 
 - let ek repo h originaldev naam ka ,uska ek issue #123 h jo hme solve krna h
-ex-let ko const karna h ek line pe  
+  ex-let ko const karna h ek line pe  
 
 so, as usual steps
 fork orginal>git clone to own machine > 
-- now we have original repo
+- now we have original repo 
   forked repo on github
   local machine pe clone repo
 
@@ -96,11 +96,10 @@ means ki jo upstream ka main h wo local machine/vscode bolo pe aa gyi h but wo a
 ```
 git push 
 ```
-
 now everything is in sync 
 upstream main
 forkedrepo main
-clone/localmachinerepo 
+clone/localmachinerepo
 
 //**git merge upstream/main //means ki upstream ka mainn apne forked repo jo github pe h usmae daal do
 
@@ -109,7 +108,7 @@ clone/localmachinerepo
 ----
 ### Code sync problem when multiple contributors working on different issues simultaneously
 
-ie agar jb hme upstream se fork ar koi issue solve kiya L34 code daal dete ar PR karne se phle koi ar user contri krdeta h L42 upstream mae daal deta h 
+ie agar jb hme upstream se fork ar koi issue solve kiya L34 code daal dete ar PR karne se phle koi ar user contri krdeta h L42 upstream mae daal deta h </br>
 ab hmara forked repo ,local machine piche h upstream se th 
 then do 
 
