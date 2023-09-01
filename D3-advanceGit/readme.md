@@ -24,11 +24,10 @@ cd reponame
 ```
 code . 
 ```
- 
+//tells ki push/pull karenge th kis repo se link hoga
 ```
 git remote -v 
 ```
-//tells ki push/pull karenge th kis repo se link hoga
 origin:(fetch)/pull
 origin:(push)
 
@@ -63,63 +62,69 @@ PR desc: fixes #123
 
 now the maintainer of original repo merge the PR
 
+---
 - now if we select a new issue from original repo then 
 ```
 git switch main
 ```
 
-//krna chahiye ki ab ek  branch bna ke uss issue pe kaam kare but but 
-what happens now is forked repo ke feat/.. branch mae changes hue h ar feat/.. branch ko merge kiye h original repo mae 
-abhi bhi forked repo ke main mae let --let hi h const nhi h main mae 
-while original repo ke main mae let const hogya h 
+- krna chahiye ki ab ek  branch bna ke uss issue pe kaam kare but but 
+  what happens now is `forked repo ke feat/..` branch mae changes hue h ar `feat/.. branch`ko merge kiye h original repo mae 
+###### abhi bhi forked repo ke main mae let --let hi h const nhi h main mae 
+###### while original repo ke main mae let const hogya h
 
-//what should we do now ki upstream ka main ar forked ka main ek ho jae ar sync ho jae !!
-**git remote add upstream url-of-original-repo
-//hm local machine ko bta rhe h ki upstream bhi kuch hota h 
-now
-**git remote -v
+what should we do now ki upstream ka main ar forked ka main ek ho jae ar sync ho jae !!
+
+hm local machine ko bta rhe h ki upstream bhi kuch hota h 
+```
+git remote add upstream url-of-original-repo
+```
+```
+git remote -v
+```
 origin/forked(fetch)
 origin/forked(push)
 upstream(fetch)
 upstream(push)
 
-**git pull upstream main
+
+```
+git pull upstream main
+```
 means ki jo upstream ka main h wo local machine/vscode bolo pe aa gyi h but wo abhi bhi github ke forkedrepo pe nhi h so to do it 
-**git push 
+
+```
+git push 
+```
 
 now everything is in sync 
 upstream main
 forkedrepo main
-clone/localmachinerepo
+clone/localmachinerepo 
 
 //**git merge upstream/main //means ki upstream ka mainn apne forked repo jo github pe h usmae daal do
 
 
 
-------------------------------
-Code sync problem when multiple contributors working on different issues simultaneously
+----
+### Code sync problem when multiple contributors working on different issues simultaneously
 
 ie agar jb hme upstream se fork ar koi issue solve kiya L34 code daal dete ar PR karne se phle koi ar user contri krdeta h L42 upstream mae daal deta h 
-ab hmara forked repo ,local machine piche h upstream se th then do 
-**git remote add upstream <url of original repo>
-**git upstream main
-**git push origin main
+ab hmara forked repo ,local machine piche h upstream se th 
+then do 
 
-**git checkout -b "abc"
-**git merge origin main 
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+```
+git remote add upstream <url of original repo>
+```
+```
+git upstream main
+```
+```
+git push origin main
+```
+```
+git checkout -b "abc"
+```
+```
+git merge origin main 
+```
