@@ -64,17 +64,18 @@ and delete the fix/typo branch as best practise</br>
 ---
 //now it if do something like </br>
 //main>fix/typo »git checkout -b "somnethig"</br>
-mtlab main se jo fix typo name ka branch bna tha usmae fir branch bnane ka command likhe h </br>
-th fix/typo branch se something branch aaega </br> 
-wo ki fix/typo wale change ko commit karega </br>
+  mtlab main se jo fix typo name ka branch bna tha usmae fir branch bnane ka command likhe h </br>
+  main-->fix/typo--->something
+th fix/typo branch se something branch aaega </br>
+ar agr something see PR krenge the wo fix/typo  wale change ko bhi commit karega </br>
 
-so del branch se branch nhi banana h </br>
+`so del branch se branch nhi banana h `</br>
 
 so now in vs terminal 
 ```
 git switch main
 ```
-//ab local vscode ka repo 2 commit piche h th do 
+//ab local vscode ka main repo 2 commit piche h th do 
 ```
 git pull
 ```
