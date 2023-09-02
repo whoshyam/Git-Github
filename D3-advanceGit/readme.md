@@ -28,8 +28,8 @@ code .
 ```
 git remote -v 
 ```
-origin:(fetch)/pull
-origin:(push)
+`origin:(fetch)/pull`
+`origin:(push)`
 
 //now local set up
 ```
@@ -70,8 +70,8 @@ git switch main
 
 - krna chahiye ki ab ek  branch bna ke uss issue pe kaam kare but but 
   what happens now is `forked repo ke feat/..` branch mae changes hue h ar `feat/.. branch`ko merge kiye h original repo mae 
-###### abhi bhi forked repo ke main mae let --let hi h const nhi h main mae 
-###### while original repo ke main mae let const hogya h
+`abhi bhi forked repo ke main mae let --let hi h const nhi h main mae 
+while original repo ke main mae let const hogya h`
 
 what should we do now ki upstream ka main ar forked ka main ek ho jae ar sync ho jae !!
 
@@ -82,28 +82,31 @@ git remote add upstream url-of-original-repo
 ```
 git remote -v
 ```
-origin/forked(fetch)
-origin/forked(push)
-upstream(fetch)
-upstream(push)
+`origin/forked(fetch)`
+`origin/forked(push)`
+`upstream(fetch)`
+`upstream(push)`
 
 
 ```
 git pull upstream main
 ```
-means ki jo upstream ka main h wo local machine/vscode bolo pe aa gyi h but wo abhi bhi github ke forkedrepo pe nhi h so to do it 
+means ki jo upstream ka main h wo local machine/vscode pe aajae h but wo abhi bhi github ke `forkedrepo` pe nhi h so to do it 
 
 ```
 git push 
 ```
 now everything is in sync 
-upstream main
-forkedrepo main
-clone/localmachinerepo
+`upstream main`
+`forkedrepo main`
+`clone/localmachinerepo`
 
-//**git merge upstream/main //means ki upstream ka mainn apne forked repo jo github pe h usmae daal do
-
-
+//
+git fetch</br>
+git merge upstream/main</br>
+git commit -m "Merged changes from upstream main branch"</br>
+git push
+//
 
 ----
 ### Code sync problem when multiple contributors working on different issues simultaneously
