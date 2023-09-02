@@ -5,9 +5,9 @@
 
 so, as usual steps
 fork orginal>git clone to own machine > 
-- now we have original repo 
-  forked repo on github
-  local machine pe clone repo
+- now we have `original repo` 
+  `forked repo on github`
+  `local machine pe clone repo`
 
 - open terminal
 //folder for repo
