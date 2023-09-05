@@ -22,11 +22,12 @@ ab user1 ki PR merge ho gyi
 - now if we try to merge user2 PR then there will be conflict as user2 ki PR mae user1 ke changes th h nhi 
   now github is confused ki kisi PR merge karu 
 
-` now user2 have to resolve the conflict user2 ki files changed mae kuch aisa dhkega </br>
+` now user2 have to resolve the conflict user2 ki files changed mae kuch aisa dhkega` </br>
 ![Alt text](image-1.png)
-now user2 have to wisely deal with coonflict </br>
-as see line 10 mae koi conflict nhi aaya h </br>
-means ki kuch wisely change krna hoga ` </br>
+
+` now user2 have to wisely deal with coonflict 
+as see line 10 mae koi conflict nhi aaya h 
+means ki kuch wisely change krna hoga` </br>
 ie --> ![Alt text](image-2.png)</br>
 now user1 ki PR ka bhi dhyan rhkha ar apna PR bhi sahi kar liya</br>
 
