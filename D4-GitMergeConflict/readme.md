@@ -33,8 +33,19 @@ now user1 ki PR ka bhi dhyan rhkha ar apna PR bhi sahi kar liya</br>
 
 conflicts ko github se nhi vs code se solve karenge 
 
- 
+- after user1 PR merge 
+  user2 wants to merge its PR also then after makinging changes 
+  `git pull upstream main`
+// upstream ke main ko local machine se merge krne ka try kr rhe h 
 
+now it shows merge conflicts 
+user2 have to wisely handle conflicts 
+ 
+git add .
+git rebase --continue
+commit message
+git status
+git push -f
 
 
 
