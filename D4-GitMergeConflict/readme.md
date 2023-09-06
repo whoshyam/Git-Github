@@ -41,15 +41,15 @@ conflicts ko github se nhi vs code se solve karenge
 now it shows merge conflicts 
 user2 have to wisely handle conflicts 
  
-'git add .'
+`git add .`
 
-'git rebase --continue'
+`git rebase --continue`
 
-'commit message'
+`commit message`
 
-'git status'
+`git status`
 
-'git push -f'
+`git push -f`
 
 
 
