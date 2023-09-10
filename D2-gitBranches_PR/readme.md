@@ -2,7 +2,7 @@
 - branch name convention</br>
   fix/wrong-youtubestats
 - for best practises to resolve any issue create a branch and then solve it 
-- after making change in branch, if satisfies with it ... so now we wanna merege it to the main/master/upstream </br>
+- after making change in branch, if satisfied with it ... so now we wanna merege it to the main/master/upstream </br>
 so we create a PR
 
 ## PR request 
@@ -18,7 +18,7 @@ maintainer can merge & close
 ----------
 ## solving a issue
 - select a issue
-</br> piyushh ko piyush krna h website se
+</br> change piyushh to piyush on server website
 
 - Now make a branch </br>
 to make a branch write the below command in vs code terminal
@@ -31,12 +31,11 @@ and then test it
 </br>
 in vscode terminal 
 ```
-git add.
+git add .
 ```
 ```
 git commit -m "commit message"
 ```
-git commit -m "fixed typo"
 ```
 git push --set-upstream origin fix/typo-in-homepage
 ```
@@ -44,8 +43,8 @@ git push --set-upstream origin fix/typo-in-homepage
 now new branch is created
 </br>
 now make a PR</br>
-- repo >>pull request>>new pull request</br>
-now select kis branch ko kismae merge karna h </br>
+- github repo >>pull request>>new pull request</br>
+now select which branch is to merge in which</br>
 base:main<- compare: fix/ typo-in-homepage</br>
 
 - now create a pull request
@@ -57,32 +56,25 @@ in terminal vs code
 ```
 yarn dev
 ```
-- to run it on local host 3000 //uss localhost3000 pe fix ka SS lelo ar PR mae paste krdo 
+- to run it on the local host 3000 //on localhost3000 check the solution, take screenshot and paste it in PR desc. 
 </br>
-so if the PR is good and the maintainer merge it </br>
-and delete the fix/typo branch as best practise</br>
+so if the PR is good then the maintainer will merge it </br>
+and delete the fix/typo branch as best practice </br>
 ---
-//now it if do something like </br>
-//main>fix/typo »git checkout -b "somnethig"</br>
-  mtlab main se jo fix typo name ka branch bna tha usmae fir branch bnane ka command likhe h </br>
-  main-->fix/typo--->something
-th fix/typo branch se something branch aaega </br>
-ar agr something see PR krenge the wo fix/typo  wale change ko bhi commit karega </br>
+//now if we do something like </br>
+//main>fix/typo »git checkout -b "something"</br>
+  ie we are creating a branch from main-->fix/typo--->something</br
+now if we we make PR from something branch then it will also commit the changes of fix/typo branch </br>
 
-`so del branch se branch nhi banana h `</br>
+`So do not create a branch from deleted branch `</br>
 
-so now in vs terminal 
 ```
 git switch main
 ```
-//ab local vscode ka main repo 2 commit piche h th do 
+//now on local machine vscode repo is behind 2 commit from the forked github repo  
 ```
 git pull
 ```
-ab github ar local repo sync ho jaega 
+now github forked repo and local repo are in syn
 </br>
-if main has issue #1,#2,#3</br>
-ar agar fork ke repo mae changes kare jo fixes  issue1,2,3 </br>
-ar PR daal de th invalid hoga </br>
-as har ek issue ke liye ek alag branch bano ar usko PR mae dalo</br>
-
+` always create separate branch for separate issue for best practices`
