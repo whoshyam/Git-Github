@@ -1,16 +1,15 @@
-# Connecting and syncing with upstream concept
-
-- let ek repo h originaldev naam ka ,uska ek issue #123 h jo hme solve krna h
-  ex-let ko const karna h ek line pe  
+## Connecting and syncing with upstream concept
+- let there is a repo "originaldev" that has issue #123
+  ex-change let to const  
 
 so, as usual steps
 fork orginal>git clone to own machine > 
-- now we have `original repo` 
-  `forked repo on github`
+- now we have
+  `original repo` 
+  `forked repo on GitHub`
   `local machine pe clone repo`
 
 - open terminal
-//folder for repo
 ```
 cd coding  
 ```
@@ -20,22 +19,21 @@ git clone link
 ```
 cd reponame
 ``` 
-// isse vscode khul jaega main branch ka
 ```
 code . 
 ```
-//tells ki push/pull karenge th kis repo se link hoga
+`tells if we do push/pull then it is linked to which repo`
 ```
 git remote -v 
 ```
-`origin:(fetch)/pull`
+`origin:(fetch)/pull`</br>
 `origin:(push)`
 
 //now local set up
 ```
 yarn 
 ```
-jb set up hogya tb, to run at local host3000,checks the issue 
+when repo is locally set then run it on localhost3000 and checks the issue that it is actually there or not
 ```
 yarn dev 
 ```
@@ -52,26 +50,26 @@ git add .
 ```
 git commit -m "changed let to const"
 ```
-- note-ye command dalne ke baad apne aap ek git push ka command aajaega just copy it
+- note-after executing above command there will be automatically a command for push on upstream
 ```
 git push --set-upstream origin feat/let-to-const
 ```
-// now if we go github and check branches th ek new branch ban gya h ar PR karenge tb
+now if we go github and check branches then there is a branch now we can make a PR
 - PR 
 PR desc: fixes #123
 
-now the maintainer of original repo merge the PR
+now the maintainer of original repo merges the PR
 
----
+---------------------------------------
 - now if we select a new issue from original repo then 
 ```
 git switch main
 ```
 
-- krna chahiye ki ab ek  branch bna ke uss issue pe kaam kare but but 
+- now what should be done is make a new branch and then work on that issue but 
   what happens now is `forked repo ke feat/..` branch mae changes hue h ar `feat/.. branch`ko merge kiye h original repo mae 
 `abhi bhi forked repo ke main mae let --let hi h const nhi h main mae 
-while original repo ke main mae let const hogya h`
+while in original repo main let has been changed into const hogya`
 
 what should we do now ki upstream ka main ar forked ka main ek ho jae ar sync ho jae !!
 
@@ -86,7 +84,6 @@ git remote -v
 `origin/forked(push)`
 `upstream(fetch)`
 `upstream(push)`
-
 
 ```
 git pull upstream main
@@ -109,7 +106,7 @@ git push
 //
 
 ----
-### Code sync problem when multiple contributors working on different issues simultaneously
+## Code sync problem when multiple contributors working on different issues simultaneously
 
 ie agar jb hme upstream se fork ar koi issue solve kiya L34 code daal dete ar PR karne se phle koi ar user contri krdeta h L42 upstream mae daal deta h </br>
 ab hmara forked repo ,local machine piche h upstream se th 
