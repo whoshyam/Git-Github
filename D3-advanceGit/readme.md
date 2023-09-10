@@ -67,13 +67,12 @@ git switch main
 ```
 
 - now what should be done is make a new branch and then work on that issue but 
-  what happens now is `forked repo ke feat/..` branch mae changes hue h ar `feat/.. branch`ko merge kiye h original repo mae 
-`abhi bhi forked repo ke main mae let --let hi h const nhi h main mae 
+  what happens now is `forked repo's feat/..` branch is merged in original repo
+`but but now still the github forked repo's main let is let it hasn't changed yet
 while in original repo main let has been changed into const hogya`
 
-what should we do now ki upstream ka main ar forked ka main ek ho jae ar sync ho jae !!
-
-hm local machine ko bta rhe h ki upstream bhi kuch hota h 
+what should we do now so upstream main and forked main will sync!!</br>
+now we are letting the local machine that there is something called upstream
 ```
 git remote add upstream url-of-original-repo
 ```
@@ -88,8 +87,7 @@ git remote -v
 ```
 git pull upstream main
 ```
-means ki jo upstream ka main h wo local machine/vscode pe aajae h but wo abhi bhi github ke `forkedrepo` pe nhi h so to do it 
-
+means ie sync original repo and local machine repo but the github forked repo is not yet synced so to make it happen we do the`push` command 
 ```
 git push 
 ```
@@ -111,6 +109,10 @@ git push
 ie agar jb hme upstream se fork ar koi issue solve kiya L34 code daal dete ar PR karne se phle koi ar user contri krdeta h L42 upstream mae daal deta h </br>
 ab hmara forked repo ,local machine piche h upstream se th 
 then do 
+ie if we fork a repo and work on some issue and maked changes on line34 and makes a PR but before the PR merge </br>
+some other user works on another issue and makes changes on line42 and makes a PR and then the PR is merged in the main </br>
+then now the local machine and github forked repo is behind the upstream main 
+so to make it happen we do -->
 
 ```
 git remote add upstream <url of original repo>
