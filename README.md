@@ -1,6 +1,3 @@
-## Open-Source
-- This repo contains all about open source
----------
 # First Contributions
 #### If you don't have git on your machine, [install it](https://docs.github.com/en/get-started/quickstart/set-up-git).
 
