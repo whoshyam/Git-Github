@@ -1,3 +1,5 @@
+[CMD-Cheatsheet](https://www.stationx.net/windows-command-line-cheat-sheet/)</br>
+[git-cheatsheet](https://cs.fyi/guide/git-cheatsheet)
 # First Contributions
 #### If you don't have git on your machine, [install it](https://docs.github.com/en/get-started/quickstart/set-up-git).
 
