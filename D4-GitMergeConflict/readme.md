@@ -21,20 +21,25 @@ now user1 PR is merged
 
 - now if we try to merge user2 PR then there will be a conflict as in user2 PR it does not have the changes of user2 so now github is confused which change is to accept as both the user changes on the same line 
 ` now user2 have to resolve the conflict user2 ki files changed mae kuch aisa dhkega` </br>
+
 ![Alt text](image-1.png)
+
 </br>
 
 ` now user2 have to wisely deal with conflict 
 as dev should see other code also so that conflict does not now ` 
 </br>
-ie --> ![Alt text](image-2.png)</br
+ie --> 
+
+![Alt text](image-2.png)
+</br>
 
 - after user1 PR merge 
   user2 wants to merge its PR also then after making changes 
   `git pull upstream main`
 
 now it shows merge conflicts 
-user2 have to wisely handle conflicts 
+user2 have to handle conflicts wisely 
  
 `git add .`
 
