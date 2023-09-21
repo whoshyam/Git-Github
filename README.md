@@ -1,4 +1,4 @@
-[**CMD-guide**](https://www.stationx.net/windows-command-line-cheat-sheet/) &ensp; [**Git-guide**](https://cs.fyi/guide/git-cheatsheet) &ensp; [**Markdown-guide**](markdownguide.org/getting-started/)
+[**CMD-guide**](https://www.stationx.net/windows-command-line-cheat-sheet/) &emsp; [**Git-guide**](https://cs.fyi/guide/git-cheatsheet) &emsp; [**Markdown-guide**](markdownguide.org/getting-started/)
 # First Contributions
 #### If you don't have git on your machine, [install it](https://docs.github.com/en/get-started/quickstart/set-up-git).
 
