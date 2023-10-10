@@ -29,11 +29,16 @@ Change to the repository directory on your computer (if you are not already ther
 cd repo name
 ```
 
-Now create a branch using the `git switch` command:
+Now create a branch and switch to the branch 
 
 ```
 git switch -c your-new-branch-name
 ```
+`for switching between branches use command:` 
+```
+git switch
+``` 
+
 ## Make necessary changes and commit those changes
 
 If you go to the project directory and execute the command `git status`, you'll see there are changes.
