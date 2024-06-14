@@ -1,4 +1,7 @@
-[**Git-docs**](https://git-scm.com/docs) &emsp; [**Markdown-guide**](https://www.markdownguide.org/basic-syntax/)
+https://www.javatpoint.com/git
+
+- [**Git-docs**](https://git-scm.com/docs)
+- [**Markdown-guide**](https://www.markdownguide.org/basic-syntax/)
 # First Contributions
 #### If you don't have git on your machine, [install it](https://docs.github.com/en/get-started/quickstart/set-up-git).
 
